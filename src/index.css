@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;400;700&family=Rubik+Wet+Paint&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@300;700&family=Rubik+Wet+Paint&display=swap'); 
+  
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  body {
+    
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.background{
+  margin: 0;
+  
+  background-image: url(./Components/Book3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 100vh;
+}
+@media(max-width: 600px){
+  .background{
+    background-image: url(./Components/Book5.jpg);
+  }
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border-color: dodgerblue !important;
+}
+form{
+/* width: 400; */
+  /* background: linear-gradient( azure, #b6d0e2 ) */
+}
+
+.curl{
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 5em;
+  height: 5em;
+  background-color:#e8e8e4;
+
+}
+
+.fold{
+  position: absolute;
+  width: 0;
+  top: 0;
+  right: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5em 5em 0;
+  border-color: transparent bisque transparent transparent;
+}
