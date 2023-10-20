@@ -20,7 +20,7 @@ function Login() {
     const [enteredPasswordTouched, setEnteredPasswordTouched] = useState(false);
 
     const validEmail = new RegExp(
-        '^[a-z]+@[a-z0-9]+$'
+        '^[a-z0-9]+@[a-z0-9.]+$'
      );
     const enteredEmailIsValid = validEmail.test(enteredEmail);
 const enteredEmailIsInValid = !enteredEmailIsValid && enteredEmailTouched;
