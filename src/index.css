@@ -25,7 +25,7 @@
 .background{
   margin: 0;
   
-  background-image: url(./Components/Book3.jpg);
+  background-image: url(./Components/Picures/Book3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center center; */
@@ -33,7 +33,7 @@
 }
 @media(max-width: 600px){
   .background{
-    background-image: url(./Components/Book5.jpg);
+    background-image: url(./Components/Picures/Book5.jpg);
   }
 }
 
