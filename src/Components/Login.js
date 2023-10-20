@@ -127,7 +127,7 @@ document.getElementsByName("toggle").id=1;
             <div className='fold'></div>
            
                 <Typography fontWeight={'540'}  fontFamily={'Montserrat'}
-   variant='h4' padding={3} textAlign='center' >BookRack</Typography>
+   variant='h5' sx={{color:'brown'}} padding={2.5} textAlign='center' >BookRack</Typography>
    
                 <TextField helperText={enteredUserNameIsInvalid?'Username cannot be empty':''} sx={txStyle} onChange={userNameHandler} onBlur={userNameBlurHandler} value={enteredUserName} error={enteredUserNameIsInvalid} label='Username' size='small' margin='normal' variant='outlined' placeholder='Username'></TextField>
                 <TextField helperText={enteredEmailIsInValid?'Enter a valid Email':''}value={enteredEmail} onChange={emailHandler} onBlur={emailBlurHandler}error={enteredEmailIsInValid}  sx={txStyle } label='E-mail' size='small' margin='normal' variant='outlined' placeholder='E-mail'></TextField>
