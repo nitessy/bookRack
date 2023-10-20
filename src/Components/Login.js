@@ -129,9 +129,9 @@ document.getElementsByName("toggle").id=1;
                 <Typography fontWeight={'540'}  fontFamily={'Montserrat'}
    variant='h4' padding={3} textAlign='center' >BookRack</Typography>
    
-                <TextField  sx={txStyle} onChange={userNameHandler} onBlur={userNameBlurHandler} value={enteredUserName} error={enteredUserNameIsInvalid} label='Username' size='small' margin='normal' variant='outlined' placeholder='Username'></TextField>
-                <TextField value={enteredEmail} onChange={emailHandler} onBlur={emailBlurHandler}error={enteredEmailIsInValid}  sx={txStyle } label='E-mail' size='small' margin='normal' variant='outlined' placeholder='E-mail'></TextField>
-                <TextField  type={showPass?"text": "password"} value={enteredPassword} onChange={passwordHandler} onBlur={passwordBlurHandler} error={enteredPasswordIsInValid} sx={txStyle} label='Password' size='small' margin='normal' variant='outlined' placeholder='Password' ></TextField>
+                <TextField helperText={enteredUserNameIsInvalid?'Username cannot be empty':''} sx={txStyle} onChange={userNameHandler} onBlur={userNameBlurHandler} value={enteredUserName} error={enteredUserNameIsInvalid} label='Username' size='small' margin='normal' variant='outlined' placeholder='Username'></TextField>
+                <TextField helperText={enteredEmailIsInValid?'Enter a valid Email':''}value={enteredEmail} onChange={emailHandler} onBlur={emailBlurHandler}error={enteredEmailIsInValid}  sx={txStyle } label='E-mail' size='small' margin='normal' variant='outlined' placeholder='E-mail'></TextField>
+                <TextField helperText={enteredPasswordIsInValid?'Enter a valid Password':''} type={showPass?"text": "password"} value={enteredPassword} onChange={passwordHandler} onBlur={passwordBlurHandler} error={enteredPasswordIsInValid} sx={txStyle} label='Password' size='small' margin='normal' variant='outlined' placeholder='Password' ></TextField>
                 <p  name="toggle" onClick={handleShow} className='show' id='1'> Show password </p>
                 <Button onClick={submitHandler} endIcon ={<LoginOutlinedIcon/>} variant='contained' color='primary' sx={{
                     marginTop:3, borderRadius:3
