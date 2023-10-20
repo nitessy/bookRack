@@ -14,7 +14,7 @@ function Home() {
   return (
    <div> 
     <header>
-      <h1>BookRack</h1>
+      <h1 className='head'>BookRack</h1>
 
       <div id="form">
         <a href='https://medium.com/@nitessy/a-journal-of-life-dbdf2e98ebe8'>
