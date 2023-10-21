@@ -29,7 +29,7 @@ function Home() {
     <div className="container">
       <img  src={books2} ></img>
     <div className='details'>
-      <h1> For the Lovers of Book!</h1>
+      <h1 className='detailhead'> For the Lovers of Book!</h1>
       <p> Know what a book is? <br/>
       And how a book lover is different from the world !
       </p>
@@ -43,7 +43,7 @@ function Home() {
     <div className="container">
       <img  src={vssut} ></img>
     <div className='details'>
-      <h1> A freshers's views on VSSUT!</h1>
+      <h1 className='detailhead'> A freshers's views on VSSUT!</h1>
       <p> My experience at VSSUT, Burla as a fresher <br/>
       Posted by: The Literary Society, VSSUT
       </p>
@@ -55,7 +55,7 @@ function Home() {
     <div className="container">
       <img  src={scars} ></img>
     <div className='details'>
-      <h1> A lyrical healing</h1>
+      <h1 className='detailhead'> A lyrical healing</h1>
       <p> Writtten on the scars that we tend to hide from the world<br/>
       
       </p>
@@ -67,7 +67,7 @@ function Home() {
     <div className="container">
       <img  src={one} ></img>
     <div className='details'>
-      <h1> A soldier's last message for his beloved</h1>
+      <h1 className='detailhead'> A soldier's last message for his beloved</h1>
       <p> Expressed as a poem a soldier is writing in form of a letter for his beloved <br/>
     
       </p>

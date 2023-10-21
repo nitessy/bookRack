@@ -142,6 +142,9 @@ border-radius: 6px;
       padding-bottom: 4%;
       margin-left: unset;
     }
+    .detailhead{
+      font-size: 1.3rem;
+    }
     .container{
       flex-direction: column;
       align-items: flex-start;
