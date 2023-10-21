@@ -43,7 +43,7 @@ function Home() {
     <div className="container">
       <img  src={vssut} ></img>
     <div className='details'>
-      <h1> A freshers's views on VSSUT!</h1>
+      <h1> A fresher's views on VSSUT!</h1>
       <p> My experience at VSSUT, Burla as a fresher <br/>
       Posted by: The Literary Society, VSSUT
       </p>
